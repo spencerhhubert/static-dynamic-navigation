@@ -1,0 +1,36 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+#nav {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9dbff;
+    text-decoration: none;
+    color: black
+}
+
+#nav a:hover, #nav a.active:hover, #nav a.active {
+    background-color: #ec84ff;
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px
+}
