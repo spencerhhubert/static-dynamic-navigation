@@ -25,6 +25,14 @@ for (i = 0; i < pages.length; i++) {
     let n = address.lastIndexOf('/');
     let livePage = address.substring(n + 1);
 
+    if (livePage.length == 0) {
+        livePage = "index.html";
+    }
+
+    if (livePage.substr(livePage.length - 5) != ".html") {
+        livePage = livePage + ".html";
+    }
+
     if (pages[i].path == livePage) {
         link.classList.add("active");
 
