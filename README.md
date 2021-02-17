@@ -1,3 +1,3 @@
 # static-dynamic-navigation
 
-Seems like it should be possible to make a dynamic navigation page in Javascript for static websites. This was something I thought was so hard it was impossible when I made my first few websites and darn Redditors said it was, but now it seems trivial. We'll see.
+This can dynamically change the navigation menu and title of your HTML pages without any server-side support. AKA you can use it on GitHub Pages.
